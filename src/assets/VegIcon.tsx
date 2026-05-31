@@ -1,0 +1,25 @@
+export const VegIcon = () => (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect x="1" y="1" width="14" height="14" rx="2" stroke="#60b246" strokeWidth="1.5" />
+    <circle cx="8" cy="8" r="4" fill="#60b246" />
+  </svg>
+);
+
+export const NonVegIcon = () => (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect x="1" y="1" width="14" height="14" rx="2" stroke="#E23744" strokeWidth="1.5" />
+    <polygon points="8,4 12,12 4,12" fill="#E23744" />
+  </svg>
+);
