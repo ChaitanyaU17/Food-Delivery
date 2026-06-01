@@ -28,7 +28,7 @@ const AppLogo = ({
       fontSize="18"
       fill="#E23744"
     >
-      FoodRush
+      Spice Route
     </text>
   </svg>
 );

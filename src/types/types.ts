@@ -47,7 +47,7 @@ export type PaymentMethod = "UPI" | "Card" | "Cash On Delivery";
 export interface DeliveryAddress {
     name: string;
     phone: string;
-    adress: string;
+    address: string;
     city: string;
     pincode: string;
 }
